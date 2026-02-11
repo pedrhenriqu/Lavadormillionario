@@ -22,7 +22,7 @@ const InstructorSection = () => {
             </div>
             <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
               <span className="bg-secondary px-3 py-1 rounded-full text-xs text-muted-foreground border border-border">
-                Especialista +10 anos
+                Especialista +29 anos
               </span>
               <span className="bg-secondary px-3 py-1 rounded-full text-xs text-muted-foreground border border-border">
                 +2.847 Alunos
