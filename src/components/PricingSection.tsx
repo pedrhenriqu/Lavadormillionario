@@ -66,8 +66,6 @@ const PricingSection = () => {
             <p className="mb-2">Pagamento 100% seguro</p>
             <div className="flex items-center justify-center gap-4">
               <span className="flex items-center gap-1"><CreditCard className="w-4 h-4" /> Cartão</span>
-              <span className="flex items-center gap-1"><Smartphone className="w-4 h-4" /> PIX</span>
-              <span className="flex items-center gap-1"><Landmark className="w-4 h-4" /> Boleto</span>
             </div>
           </div>
         </div>
