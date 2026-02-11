@@ -38,10 +38,7 @@ const PricingSection = () => {
               Mas somente hoje você terá acesso a tudo isso por apenas:
             </p>
             <p className="text-primary-foreground font-bold text-5xl md:text-6xl mb-1">
-              R$ 54,90
-            </p>
-            <p className="text-primary-foreground/80 text-sm">
-              à vista
+              R$ 54,90<span className="text-2xl font-semibold">/mês</span>
             </p>
           </div>
 
