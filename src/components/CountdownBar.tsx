@@ -16,7 +16,7 @@ const CountdownBar = () => {
   const seconds = (time % 60).toString().padStart(2, "0");
 
   return (
-    <div className="gradient-gold py-2 px-4 text-center sticky top-0 z-50">
+    <div className="py-2.5 px-4 text-center sticky top-0 z-50" style={{ background: "linear-gradient(135deg, #8b6914, #a67c1a, #c49a2a)" }}>
       <a href={CHECKOUT_URL} className="flex items-center justify-center gap-2 text-primary-foreground font-bold text-sm md:text-base">
         <span>⚡🔥 PROMOÇÃO NUNCA VISTA ANTES</span>
         <span className="ml-2">ACABA EM:</span>
