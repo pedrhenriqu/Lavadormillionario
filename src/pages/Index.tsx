@@ -1,12 +1,31 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import CountdownBar from "@/components/CountdownBar";
+import HeroSection from "@/components/HeroSection";
+import PainPointsSection from "@/components/PainPointsSection";
+import InstructorSection from "@/components/InstructorSection";
+import ForWhoSection from "@/components/ForWhoSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import CourseContentSection from "@/components/CourseContentSection";
+import BonusSection from "@/components/BonusSection";
+import PricingSection from "@/components/PricingSection";
+import GuaranteeSection from "@/components/GuaranteeSection";
+import FAQSection from "@/components/FAQSection";
+import FinalCTASection from "@/components/FinalCTASection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background text-foreground">
+      <CountdownBar />
+      <HeroSection />
+      <PainPointsSection />
+      <InstructorSection />
+      <ForWhoSection />
+      <TestimonialsSection />
+      <CourseContentSection />
+      <BonusSection />
+      <PricingSection />
+      <GuaranteeSection />
+      <FAQSection />
+      <FinalCTASection />
     </div>
   );
 };
